@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="images/logo.PNG" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="images/search.PNG" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="images/video.PNG" class="icon" alt="">
+            <img src="images/grid.PNG" class="icon" alt="">
+            <img src="images/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="images/logo1.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="images/home.PNG" alt=""><span>home</span></a>
+        <a href="#" class="links"><img src="images/explore.PNG" alt=""><span>explore</span></a>
+        <a href="#" class="links"><img src="images/subscription.PNG" alt=""><span>subscription</span></a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="images/library.PNG" alt=""><span>library</span></a>
+        <a href="#" class="links"><img src="images/history.PNG" alt=""><span>history</span></a>
+        <a href="#" class="links"><img src="images/your-video.PNG" alt=""><span>your video</span></a>
+        <a href="#" class="links"><img src="images/watch-later.PNG" alt=""><span>watch later</span></a>
+        <a href="#" class="links"><img src="images/liked video.PNG" alt=""><span>liked video</span></a>
+        <a href="#" class="links"><img src="images/show more.PNG" alt=""><span>show more</span></a>
+    </div>
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <a href="https://www.youtube.com/song"> 
+            <button class="filter-options">Song</button>
+        </a>
+        <button class="filter-options">web development</button>
+        <button class="filter-options">python</button>
+        <button class="filter-options">entertainment</button>
+        <button class="filter-options">marvel</button>
+        <button class="filter-options">javascript</button>
+        <button class="filter-options">artificial intelligence</button>
+        <button class="filter-options">machine learning</button>
+        <button class="filter-options">trending</button>
+    </div>
+    <div class="video-container">
+        <!-- Dynamic content will be loaded here -->
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
