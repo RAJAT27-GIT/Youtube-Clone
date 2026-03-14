@@ -21,18 +21,21 @@ This project replicates the basic layout and functionality of YouTube, including
 
 ## 📂 Project Structure
 
-Youtube-Clone
+```
+Youtube-Clone/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 │
-├── images
-│ ├── thumbnail1.jpg
-│ ├── thumbnail2.jpg
-│ └── logo.png
+├── images/
+│   ├── logo.png
+│   ├── thumbnail1.jpg
+│   ├── thumbnail2.jpg
+│   └── screenshot.png
 │
 └── README.md
+```
 
 shell
 Copy code
